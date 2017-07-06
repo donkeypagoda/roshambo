@@ -1,0 +1,110 @@
+/* ----- title section ----- */
+  .reset {
+    text-align: center;
+    background-color:#000;
+  }
+
+
+  header {
+    height: 20vh;
+    width: 30vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #heading {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .top-image {
+    width: 15vw;
+    margin-top: 2px;
+  }
+  #ro {
+    font-family: 'Lobster', cursive;
+  }
+  #sham {
+    font-family: 'Clicker Script', cursive;
+  }
+  #bo {
+    font-family: 'Sigmar One', cursive;
+  }
+  /* ----- user choice section ----- */
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #E7E9E9;
+  }
+
+  .choice {
+    border: 1px solid #989898;
+    background-color: #D3D3D3;
+    width: 10vw;
+    overflow: visible;
+  }
+
+  .pick {
+    margin: 2.5%;
+    opacity: 1;
+    border: 3px solid #1DA4B9;
+    height: 25vh;
+    border-radius: 3%;
+  }
+
+  .compWin {
+    border: 4px solid red;
+  }
+
+  /* ----- results section ----- */
+  section.outcomes {
+    height: 30vh;
+    display: flex;
+    background-color:#000;
+    flex-direction: row;
+    justify-content: center;
+    /*align-items: center;*/
+  }
+
+  .reader {
+    font-family: 'Slabo 27px', sans-serif;
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+    width: 25vw;
+    margin: 1% 2% 0 0;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  .results {
+    color:#FFF;
+    width: 20vw;
+    margin: 2%;
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    line-height: .6;
+  }
+  .score {
+    margin: 0;
+    font-size: 65px;
+  }
+
+  .winbox {
+    display: inline-block;
+    padding: 0 .5em 0 .5em;
+  }
+
+  .losebox {
+    display: inline-block;
+    padding: 0 .5em 0 .5em;
+  }

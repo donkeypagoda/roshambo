@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ro-Shammmmmm-Bo!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script defer src="main.js"> </script>
+
+  </head>
+  <body>
+    <header>
+      <img class="top-image" src="http://res.cloudinary.com/drbu9pvxt/image/upload/v1489108264/RoShamBo/ro-sham-bo_q5kuaf.png" alt="rock paper scissors image" />
+      <h1 id="heading">
+        <span id="ro">Ro </span><span id="sham">Sham </span><span id="bo">Bo!</span>
+      </h1>
+      <!-- <span>
+        <button id="reset">RESET</button>
+      </span> -->
+    </header>
+    <main>
+      <img id="rock" class="choice" src="http://res.cloudinary.com/drbu9pvxt/image/upload/v1489108179/RoShamBo/blue-rock_czfgz5.png" name="rock" alt="rock" />
+      <img id="paper" class="choice" src="http://res.cloudinary.com/drbu9pvxt/image/upload/v1489108162/RoShamBo/blue-paper_qlvjn4.png" name="paper" alt="paper" />
+      <img id="scissors" class="choice" src="http://res.cloudinary.com/drbu9pvxt/image/upload/v1489108194/RoShamBo/blue-scissors_tgtlbl.png" name="scissors" alt="scissors" />
+    </main>
+    <section class="outcomes">
+      <div class="reader">
+        <h2 id="playertext" class="reader-text">What'll it be?</h2>
+        <img id="throwplayer" class="hidden" src="http://res.cloudinary.com/drbu9pvxt/image/upload/v1489108227/RoShamBo/rock_xjk2zx.png" alt="one-two-three-shoot" />
+      </div>
+      <div class="reader">
+        <h2 id="comptext" class="reader-text"> </h2>
+        <img id="throwcomp" class="hidden" src="http://res.cloudinary.com/drbu9pvxt/image/upload/v1489108227/RoShamBo/rock_xjk2zx.png" alt="one-two-three-shoot" />
+      </div>
+      <!-- <img id="throw" src="http://res.cloudinary.com/drbu9pvxt/image/upload/v1489108227/RoShamBo/rock_xjk2zx.png" alt="one-two-three-shoot" /> -->
+      <div class="results">
+        <div class="winbox">
+          <h2>WINS</h2>
+          <h1 class="score wins">0</span>
+        </div>
+        <div class="losebox">
+          <h2>LOSSES</h2>
+          <h1 class="score losses">0</span>
+        </div>
+        <div class="tiebox">
+          <h2>TIES</h2>
+          <h1 class="score ties">0</span>
+        </div>
+        <div class="percent">
+          <h2>WIN PERCENTAGE</h2>
+          <h1 class="score winPercent">0</span>
+        </div>
+      </div>
+    </section>
+    <div class="reset">
+      <button id="resetbutton">RESET</button>
+    </div>
+  </body>
+</html>
